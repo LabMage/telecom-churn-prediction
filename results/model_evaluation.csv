@@ -1,0 +1,12 @@
+,Accuracy,F1 (thr 0.5),ROC-AUC,F1 (CV threshold)
+Logistic Regression (Baseline),0.8001,0.6033,0.8384,
+Logistic Regression (Feature Selection),0.7972,0.596,0.838,
+XGBoost (Initial),0.7895,0.5711,0.8374,
+XGBoost (Tuned),0.7859,0.5464,0.8374,0.6294
+Voting Classifier,0.7954,0.59,0.8285,
+Random Forest,0.7895,0.5365,0.8274,
+Bagging Classifier,0.7901,0.5298,0.8227,
+Logistic Regression (PCA),0.7853,0.5546,0.8221,
+SVM,0.7664,0.3639,0.8197,
+Decision Tree,0.7824,0.5067,0.8117,
+KNN,0.7646,0.534,0.7915,
